@@ -1,0 +1,6 @@
+streamlit
+transformers
+torch  # Optional: only needed if your model requires PyTorch, specific version will vary
+langchain  # Example version, use the latest compatible version with your setup
+pydantic
+langchain_huggingface
