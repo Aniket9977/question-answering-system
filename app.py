@@ -35,10 +35,11 @@ else:
     st.write("Ask questions based on the context provided below.")
 
     # Input for context
-    context = st.text_area("Context", "Enter the context or paragraph here...")
+    context = st.text_input("Context",value = '',placeholder= "Enter the context or paragraph here...")
 
     # Input for question
-    question = st.text_input("Question", "Enter your question here...")
+    question = st.text_input("Question", value="", placeholder="Enter your question here...")
+
 
     # Button to get the answer
     if st.button("Get Answer"):
